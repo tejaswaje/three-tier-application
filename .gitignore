@@ -1,0 +1,13 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+frontend/node_modules
+frontend/build
+
+.vscode
+
+backend/__pycache__
+
+backend/conf/__pycache__
+
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.backup
